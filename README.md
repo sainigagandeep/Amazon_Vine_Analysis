@@ -6,8 +6,14 @@ The analysis uses PySpark to perform the ETL process to extract the dataset, tra
 We focused on the US reviews for video games.
 
 ## Resources
-### Data Source: Amazon Review datasets, Video Games Review dataset
-### Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
+### Data Source: 
+Amazon Review datasets,
+
+### Software: 
+Google Colab Notebook, 
+PostgreSQL 11.9, 
+pgAdmin 4, 
+AWS- RDS and S3
 ## Roadmap
 The first step was to extract the dataset from an AWS S3 using PySpark in order to transform it and load it to AWS again. Please refer to Amazon_Reviews_ETL.ipynb to see the code. Note that I downloaded it as a jupyter notebook file, but it was originally created in Google Colab for PySpark to run. There, I basically divided the whole dataframe into 4 smaller dataframes for better analysis. These dataframes were then loaded to AWS RDS using a a connection from PySpark to PostgreSQL.
 
