@@ -15,7 +15,7 @@ We focused on the US reviews for video games.
 * pgAdmin 4, 
 * AWS- RDS and S3
 ## Roadmap
-The first step was to extract the dataset from an AWS S3 using PySpark in order to transform it and load it to AWS again. Please refer to Amazon_Reviews_ETL.ipynb to see the code. Note that I downloaded it as a jupyter notebook file, but it was originally created in Google Colab for PySpark to run. There, I basically divided the whole dataframe into 4 smaller dataframes for better analysis. These dataframes were then loaded to AWS RDS using a a connection from PySpark to PostgreSQL.
+The first step was to extract the dataset from an AWS S3 using PySpark in order to transform it and load it to AWS again. Please refer to Amazon_Reviews_ETL.ipynb to see the code. Note that I downloaded it as a jupyter notebook file, but it was originally created in Google Colab for PySpark to run. I basically divided the whole dataframe into 4 smaller dataframes for better analysis. These dataframes were then loaded to AWS RDS using a a connection from PySpark to PostgreSQL.
 
 ## Results
 ### Paid Vine Program
